@@ -1,0 +1,23 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.field_input{
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+  }
+  .field_input input{
+    width: 250px;
+    height: 32px;
+  
+    background: #fcfcfc;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+    text-indent: 32px;
+    color: black;
+  }
+  .field_input .fa_icon { 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+

@@ -1,0 +1,176 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.field_input{
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+    width: 250px;
+    margin: auto;
+  }
+  .field_input input{
+    width: 250px;
+    height: 32px;
+    background: #fcfcfc;
+    /* border: 1px solid #aaa; */
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+
+    color: black;
+  }
+
+  .text_indent{
+    text-indent: 32px;
+  }
+  .text_none{
+    text-indent: 10px;
+  }
+  .field_input .fa_icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+
+
+
+
+
+/* Nguyên */
+
+  .style_icon{
+    margin-left: 10px;
+  }
+  .styleDateTime{
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+  }
+
+
+  .block_dashboard{
+    margin-bottom: 80px;
+    border:2px solid #ff9900;
+    padding: 0px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .panel{
+    position:relative;
+    margin-bottom: 0px;
+    border-radius: 0px;
+
+  }
+  .panell{
+    padding: 0px;
+  }
+  /* .panel_footer{
+    opacity: 0;
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  } */
+  .count{
+    font-size: 35px;
+    color: #ff9900;
+  }
+  .text{
+    font-size: 15px;
+    color: #ff9900;
+    margin-left: 10px;
+  }
+  .panel:hover .panel_footer{
+    opacity: 1;
+    -webkit-transition: opacity 1s; /* Safari */
+    transition: opacity 1s;
+  }
+
+
+
+
+  #pagination_container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    float: right;
+    margin-bottom: 50px;
+    }
+
+    #pagination {
+    display: flex;
+    color: #505050;
+    }
+
+    #pagination_list {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 10px;
+    padding: 0;
+    }
+
+    .pagination_button {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #777;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    }
+
+    .pagination_list_item {
+    margin-right: 10px;
+    }
+
+    .pagination_list_item.active {
+    background: #505050;
+    color: white;
+    }
+
+    .pagination_go_first {
+    margin-right: 40px;
+    position: relative;
+    margin-left: 10px;
+    }
+
+    .pagination_go_first:before {
+    position: absolute;
+    content: '...';
+    right: -33px;
+    }
+
+    .pagination_go_last {
+    margin-left: 40px;
+    position: relative;
+    margin-right: 10px;
+    }
+
+    .pagination_go_last:before {
+    position: absolute;
+    content: '...';
+    left: -33px;
+    }
+    .style_icon{
+      margin-left: 10px;
+    }
+
+    .pagination{
+      cursor: pointer;
+    }
+
+    .pageSize2{
+      width: 6%;
+    }
+
+    @media only screen and (max-device-width: 480px) and (min-device-width: 320px){
+      .pageSize2{
+        width: 25%;
+      }
+    }
+      
+      @media only screen and (max-device-width: 1024px) and (min-device-width: 768px){
+        .pageSize2{
+          width: 15%;
+        }
+      }
+

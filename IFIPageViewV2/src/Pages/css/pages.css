@@ -1,0 +1,62 @@
+.tableHeader {
+    margin-left: 100px;
+}
+
+.dashboad {
+    /* margin-left: 100px; */
+}
+
+.input_error {
+    border-color: #de995e;
+    color: red;
+    margin-left: -110px;
+}
+
+.text_Header {
+    color: #73879C;
+    font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+    margin-bottom: 2%;
+}
+
+.style_search {
+    margin-left: 15%;
+}
+
+.search_Allocation {
+    margin-left: 30%;
+    margin-top: -3%;
+    width: 100%;
+}
+
+@media only screen and (max-device-width: 480px) and (min-device-width: 320px) {
+    .style_search {
+        margin-left: 0;
+    }
+
+    .btnSearch {
+        float: right !important;
+        margin-right: 15px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .style_search {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+    .style_search {
+        margin-left: 0;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .btnSearch {
+        float: right !important;
+    }
+}
